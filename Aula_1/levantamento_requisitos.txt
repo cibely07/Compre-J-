@@ -1,0 +1,35 @@
+Tabelas do sistema:
+
+users
+- id
+- name
+- email
+- password
+- created_at
+- updated_at
+
+produtos
+- id
+- nome
+- descricao
+- preco
+- estoque
+- created_at
+- updated_at
+
+pedidos
+- id
+- user_id
+- data_pedido
+- status
+- created_at
+- updated_at
+
+itens_pedido
+- id
+- pedido_id
+- produto_id
+- quantidade
+- preco
+- created_at
+- updated_at
